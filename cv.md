@@ -2,7 +2,7 @@
 
 ##### junior frontend developer
 
-### ** Contact Information **
+### **Contact Information**
 
-** phone: ** [+7 (981) 719-7800](+79817197800)
-** email: ** [maximiloi@gmail.com](maximiloi@gmail.com)
+**phone:** +7 (981) 719-7800
+**email:** maximiloi@gmail.com
