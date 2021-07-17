@@ -7,7 +7,7 @@
 -  **phone:** +7 (981) 719-7800
 -  **e-mail:** maximiloi@gmail.com
 -  **telegram:** [@maximiloi](https://t.me/maximiloi)
--  **github:** https://github.com/maximiloi
+-  **github:** [https://github.com/maximiloi](https://github.com/maximiloi)
 
 ---
 
