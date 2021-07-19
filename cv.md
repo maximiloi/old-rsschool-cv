@@ -17,6 +17,7 @@
 -  Css3
 -  JavaScript (base)
 -  React (base)
+-  PHPMailer
 -  Gulp
 -  SASS, LESS
 -  Photoshop, Sketch, Figma
