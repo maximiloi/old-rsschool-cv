@@ -65,6 +65,15 @@ ul {
    display: block;
    border-top: 2px solid #b6b3b3;
 }
+.cv__article li {
+   display: flex;
+}
+.cv__article li svg {
+   margin-right: 5px;
+   fill: #3f3f44;
+   order: -1;
+   transition: fill 0.3s linear;
+}
 .cv__title {
    margin-top: 20px;
    font-size: 1.5em;
@@ -80,12 +89,16 @@ ul {
 }
 .cv__link {
    font-size: 1em;
-   line-height: 1.1em;
+   line-height: 1.333em;
    color: #6e89c3;
+   transition: color 0.3s linear;
 }
 .cv__link:hover {
    text-decoration: none;
    color: #2451af;
+}
+.cv__link:hover ~ svg {
+   fill: #2451af;
 }
 .cv__list {
    list-style-type: disc;
@@ -101,13 +114,15 @@ ul {
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
-   -webkit-box-pack: end;
-   -ms-flex-pack: end;
-   justify-content: flex-end;
+   justify-content: space-between;
+   align-items: center;
    margin-top: 50px;
 }
-.cv__text--footer {
-   color: white;
+.cv__footer svg {
+   transition: fill 0.3s linear;
+}
+.cv__footer svg:hover {
+   fill: #2451af;
 }
 .cv__footer-logo {
    width: 200px;
