@@ -1,235 +1,635 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>CV: Toroshchin Maxim</title>
 
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link
-         href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;700;900&display=swap"
-         rel="stylesheet"
-      />
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>CV: Toroshchin Maxim</title>
 
-      <link rel="stylesheet" href="style.css" />
-   </head>
-   <body class="cv">
-      <div class="cv__container">
-         <header class="cv__header">
-            <img class="cv__avatar" src="img/avatar.jpg" width="300" height="300" alt="my photo" />
-            <div class="cv__inner">
-               <p class="cv__vacancy">Junior Frontend Developer</p>
-               <h1 class="cv__name">Maxim Toroshchin</h1>
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;700;900&display=swap" rel="stylesheet" />
+
+   <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/stackoverflow-light.min.css">
+   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+   <script>hljs.highlightAll();</script>
+
+   <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="cv">
+   <div class="cv__container">
+
+      <header class="cv__header">
+         <img class="cv__avatar" src="img/avatar.jpg" width="300" height="300" alt="my photo" />
+         <div class="cv__inner">
+            <p class="cv__vacancy">Junior Frontend Developer</p>
+            <h1 class="cv__name">Maxim Toroshchin</h1>
+         </div>
+         <nav class="cv__nav  nav">
+            <div class="hamburger hamburger--elastic" tabindex="0" aria-label="Menu" role="button">
+               <div class="hamburger-box">
+                  <div class="hamburger-inner"></div>
+               </div>
             </div>
-         </header>
-         <main class="cv__wrapper">
-            <aside class="cv__aside">
-               <article class="cv__article">
-                  <h2 class="cv__title">Contact Information</h2>
-                  <ul>
-                     <li><strong>address:</strong> Russia, Saint-Petersburg</li>
-                     <li>
-                        <strong>phone:</strong>
-                        <a href="tel:+79817197800" class="cv__link">+7 (981) 719-7800</a>
-                     </li>
-                     <li>
-                        <strong>e-mail:</strong>
-                        <a href="mailto:maximiloi@gmail.com" class="cv__link"
-                           >maximiloi@gmail.com</a
-                        >
-                     </li>
-                     <li>
-                        <strong>telegram:</strong>
-                        <a href="https://t.me/maximiloi" class="cv__link" target="_blank"
-                           >@maximiloi</a
-                        >
-                     </li>
-                     <li>
-                        <strong>github:</strong>
-                        <a href="https://github.com/maximiloi" class="cv__link" target="_blank"
-                           >https://github.com/maximiloi</a
-                        >
-                     </li>
-                  </ul>
-               </article>
-               <article class="cv__article">
-                  <h2 class="cv__title">Skills</h2>
-                  <ul>
-                     <li>Html5</li>
-                     <li>Css3</li>
-                     <li>JavaScript (base)</li>
-                     <li>React (base)</li>
-                     <li>Php (base)</li>
-                     <li>PHPMailer</li>
-                     <li>Gulp</li>
-                     <li>SASS, LESS</li>
-                     <li>Photoshop, Sketch, Figma</li>
-                  </ul>
-               </article>
-               <article class="cv__article">
-                  <h2 class="cv__title">English</h2>
-                  <p class="cv__text">Elementary</p>
-               </article>
-            </aside>
-            <div class="cv__section">
-               <article class="cv__article">
-                  <h2 class="cv__title">Profile</h2>
-                  <p class="cv__text">
-                     I develop responsive mobile-first websites (also with attention to semantic
-                     layout) for more than 2 years. I have experience of commercial development as a
-                     team member. I have excellent experience in HTML and CSS. I’m profound in
-                     reading and fixing peers code. My current work includes integrating JQuery
-                     plugins and also adapting vanilla JavaScript code on different projects. My
-                     hobbies are collecting vinyl, playing and popularising flag-footbal in Saint
-                     Petersburg.
-                  </p>
-               </article>
-               <article class="cv__article">
-                  <h2 class="cv__title">Work</h2>
-                  <h3 class="cv__title cv__title--h3">Freelancer (2018 - Present)</h3>
-                  <p class="cv__text">
-                     Create and rework clients websites in order to improve loading speed and
-                     general usability. Create adaptive components for websites and applications.
-                     Tuning marketing campaigns for clients - getting more marketing leads by email,
-                     CRM and Telegram Accounts for clients. Setting up hosting, domain and website
-                     installations for clients.
-                  </p>
-                  <h3 class="cv__title cv__title--h3">
-                     Online store 'microprice.ru' (2009 - 2018) Saint-Petersburg
-                  </h3>
-                  <p class="cv__text">
-                     Team manager - team of 4-5 people. Managing outsource development of company’s
-                     web-store. Client management, operational accounting. Results - Increase in
-                     store's annual turnover by 5%.
-                  </p>
-                  <h3 class="cv__title cv__title--h3">
-                     Store 'Pozitronika' (2003 - 2009) Velikiy Novgorod
-                  </h3>
-                  <p class="cv__text">
-                     Team management - team of 11-15 people. Upgrading store’s web-store engine.
-                     Marketing campaigns to increase offline store traffic. Results - staffing
-                     opportunities for the store, Increase in store's annual turnover by 15%.
-                  </p>
-                  <p class="cv__text"></p>
-               </article>
-               <article class="cv__article">
-                  <h2 class="cv__title">Education</h2>
-                  <h3 class="cv__title cv__title--h3">Novgorod State University</h3>
-                  <ul class="cv__list">
-                     <li class="cv__item">
-                        Institute of Agriculture and Natural Resources - Animal Science (1998 -
-                        2003)
-                     </li>
-                  </ul>
-                  <h3 class="cv__title cv__title--h3">Additional Education</h3>
-                  <h4 class="cv__title cv__title--h4">
-                     HTML Academy
-                     <span>
-                        <a
-                           href="https://htmlacademy.ru/profile/iloi"
-                           class="cv__link"
-                           target="_blank"
-                           >profile</a
-                        >
-                     </span>
-                  </h4>
-                  <ul class="cv__list">
-                     <li class="cv__item">
-                        HTML и CSS, уровень 1 (2018)
-                        <a
-                           href="https://assets.htmlacademy.ru/certificates/intensive/67/445925@2x.jpg"
-                           class="cv__link"
-                           target="_blank"
-                        >
-                           certificate
-                        </a>
-                     </li>
-                     <li class="cv__item">
-                        HTML и CSS, уровень 2 (2018)
-                        <a
-                           href="https://assets.htmlacademy.ru/certificates/intensive/91/445925@2x.jpg"
-                           class="cv__link"
-                           target="_blank"
-                        >
-                           certificate
-                        </a>
-                     </li>
-                  </ul>
-                  <h4 class="cv__title cv__title--h4">ITgid</h4>
-                  <ul class="cv__list">
-                     <li class="cv__item">
-                        JavaScript v.2.0 (2020)
-                        <a
-                           href="https://itgid.info/img/certificate/01_b55kxg3a5d.png"
-                           class="cv__link"
-                           target="_blank"
-                        >
-                           certificate
-                        </a>
-                     </li>
-                     <li class="cv__item">
-                        ООП в JavaScript (2020)
-                        <a
-                           href="https://itgid.info/img/certificate/03_rqj9gv91td.png"
-                           class="cv__link"
-                           target="_blank"
-                        >
-                           certificate
-                        </a>
-                     </li>
-                  </ul>
-               </article>
-               <article class="cv__article">
-                  <h2 class="cv__title">Sample code</h2>
-                  <ul>
-                     <li>
-                        <a
-                           href="https://maximiloi.github.io/js/weather-app/"
-                           class="cv__link"
-                           target="_blank"
-                        >
-                           Weather-app
-                        </a>
-                        <a
-                           href="https://github.com/maximiloi/maximiloi.github.io/blob/master/js/weather-app/script.js"
-                           class="cv__link"
-                           target="_blank"
-                        >
-                           (code)
-                        </a>
-                     </li>
-                     <li>
-                        <a
-                           href="https://maximiloi.github.io/quiz-app/"
-                           class="cv__link"
-                           target="_blank"
-                           >Quiz-app
-                        </a>
-                        <a
-                           href="https://github.com/maximiloi/quiz-app/blob/main/script.js"
-                           class="cv__link"
-                           target="_blank"
-                        >
-                           (code)
-                        </a>
-                     </li>
-                  </ul>
-               </article>
+            <div id="navigation">
+               <ul class="nav__list">
+                  <li class="nav__item"><a href="#profile" class="nav__link">Profile</a></li>
+                  <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                  <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                  <li class="nav__item"><a href="#my-code" class="nav__link">My Code</a></li>
+               </ul>
             </div>
-         </main>
-         <footer class="cv__footer">
-            <p class="cv__text cv__text--footer">07.2021</p>
-            <a href="https://rs.school/js/" target="_blank" rel="noopener noreferrer">
-               <img
-                  src="img/rs_school_js.svg"
-                  alt="logo rs school"
-                  class="cv__footer-logo"
-                  width="200"
-               />
-            </a>
-         </footer>
-      </div>
-   </body>
+         </nav>
+      </header>
+
+      <main class="cv__wrapper">
+         <aside class="cv__aside">
+            <article class="cv__article">
+               <h2 class="cv__title">Contact Information</h2>
+               <ul>
+                  <li>
+                     <a>Russia, Saint-Petersburg</a>
+                     <svg enable-background="new 0 0 512 512" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"
+                        width="20" height="20">
+                        <path
+                           d="m256 0c-94.104 0-170.667 76.563-170.667 170.667 0 28.25 7.063 56.26 20.49 81.104l140.844 254.729c1.875 3.396 5.448 5.5 9.333 5.5s7.458-2.104 9.333-5.5l140.896-254.813c13.375-24.76 20.438-52.771 20.438-81.021 0-94.103-76.563-170.666-170.667-170.666zm0 256c-47.052 0-85.333-38.281-85.333-85.333s38.281-85.333 85.333-85.333 85.333 38.281 85.333 85.333-38.281 85.333-85.333 85.333z" />
+                     </svg>
+                  </li>
+                  <li><a href="tel:+79817197800" class="cv__link">+7 (981) 719-7800</a>
+                     <svg enable-background="new 0 0 25.625 25.625" viewbox="0 0 25.625 25.625"
+                        xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                        <path
+                           d="m22.079 17.835c-1.548-1.324-3.119-2.126-4.648-.804l-.913.799c-.668.58-1.91 3.29-6.712-2.234-4.801-5.517-1.944-6.376-1.275-6.951l.918-.8c1.521-1.325.947-2.993-.15-4.71l-.662-1.04c-1.102-1.713-2.302-2.838-3.827-1.515l-.824.72c-.674.491-2.558 2.087-3.015 5.119-.55 3.638 1.185 7.804 5.16 12.375 3.97 4.573 7.857 6.87 11.539 6.83 3.06-.033 4.908-1.675 5.486-2.272l.827-.721c1.521-1.322.576-2.668-.973-3.995z" />
+                     </svg>
+                  </li>
+                  <li>
+                     <a href="mailto:maximiloi@gmail.com" class="cv__link">maximiloi@gmail.com</a>
+                     <svg enable-background="new 0 0 512 512" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"
+                        width="20" height="20">
+                        <path
+                           d="m507.49 101.721-155.279 154.279 155.279 154.279c2.807-5.867 4.51-12.353 4.51-19.279v-270c0-6.927-1.703-13.412-4.51-19.279z" />
+                        <path
+                           d="m467 76h-422c-6.927 0-13.412 1.703-19.279 4.51l198.463 197.463c17.548 17.548 46.084 17.548 63.632 0l198.463-197.463c-5.867-2.807-12.352-4.51-19.279-4.51z" />
+                        <path
+                           d="m4.51 101.721c-2.807 5.867-4.51 12.352-4.51 19.279v270c0 6.927 1.703 13.413 4.51 19.279l155.279-154.279z" />
+                        <path
+                           d="m331 277.211-21.973 21.973c-29.239 29.239-76.816 29.239-106.055 0l-21.972-21.973-155.279 154.279c5.867 2.807 12.352 4.51 19.279 4.51h422c6.927 0 13.412-1.703 19.279-4.51z" />
+                     </svg>
+                  </li>
+                  <li>
+                     <a href="https://t.me/maximiloi" class="cv__link" target="_blank">@maximiloi</a>
+                     <svg enable-background="new 0 0 24 24" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                        width="20" height="20">
+                        <path
+                           d="m9.417 15.181-.397 5.584c.568 0 .814-.244 1.109-.537l2.663-2.545 5.518 4.041c1.012.564 1.725.267 1.998-.931l3.622-16.972.001-.001c.321-1.496-.541-2.081-1.527-1.714l-21.29 8.151c-1.453.564-1.431 1.374-.247 1.741l5.443 1.693 12.643-7.911c.595-.394 1.136-.176.691.218z" />
+                     </svg>
+                  </li>
+                  <li><a href="https://github.com/maximiloi" class="cv__link"
+                        target="_blank">https://github.com/maximiloi</a>
+                     <svg enable-background="new 0 0 478.613 478.613" viewbox="0 0 478.613 478.613"
+                        xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                        <path
+                           d="m427.501 200.695c1.776-11.238 2.884-23.56 3.163-37.377-.107-59.246-28.468-80.21-33.925-90.038 8.037-44.89-1.331-65.309-5.688-72.299-16.07-5.704-55.91 14.722-77.678 29.101-35.491-10.389-110.494-9.375-138.621 2.689-51.896-37.16-79.344-31.494-79.344-31.494s-17.745 31.82-4.691 78.371c-17.075 21.759-29.802 37.143-29.802 77.949 0 9.773.607 19.008 1.637 27.893 14.705 77.318 75.97 110.674 136.15 116.426-9.056 6.881-19.928 19.903-21.432 34.992-11.379 7.357-34.268 9.789-52.067 4.193-24.939-7.88-34.486-57.266-71.833-50.221-8.081 1.512-6.475 6.842.523 11.386 11.378 7.38 22.094 16.554 30.354 36.185 6.344 15.072 19.687 41.982 61.873 41.982 16.747 0 28.477-1.979 28.477-1.979s.319 38.406.319 53.385c0 17.238-23.264 22.078-23.264 30.348 0 3.289 7.7 3.601 13.888 3.601 12.229 0 37.673-10.186 37.673-28.103 0-14.237.227-62.081.227-70.46 0-18.307 9.811-24.136 9.811-24.136s1.201 97.727-2.361 110.829c-4.177 15.408-11.744 13.219-11.744 20.076 0 10.233 30.589 2.502 40.735-19.897 7.849-17.495 4.334-113.331 4.334-113.331l8.183-.178s.094 43.892-.188 63.944c-.295 20.769-2.438 47.025 9.898 59.417 8.097 8.15 32.903 22.451 32.903 9.382 0-7.574-17.371-13.833-17.371-34.353v-94.528c10.553 0 12.734 31.072 12.734 31.072l3.804 57.727s-2.526 21.065 22.756 29.856c8.925 3.126 28.018 3.976 28.913-1.271.897-5.26-22.99-13.038-23.217-29.342-.123-9.93.445-15.742.445-58.934 0-43.168-5.799-59.137-26.007-71.863 58.601-6.014 119.468-32.185 130.433-101z" />
+                     </svg>
+                  </li>
+               </ul>
+            </article>
+            <article class="cv__article">
+               <h2 class="cv__title">Skills</h2>
+               <ul>
+                  <li>Html5</li>
+                  <li>Css3</li>
+                  <li>Bem</li>
+                  <li>JavaScript (base)</li>
+                  <li>React (base)</li>
+                  <li>Php (base)</li>
+                  <li>PHPMailer</li>
+                  <li>Gulp</li>
+                  <li>SASS, LESS</li>
+                  <li>Photoshop, Sketch, Figma</li>
+               </ul>
+            </article>
+            <article class="cv__article">
+               <h2 class="cv__title">Languages</h2>
+               <ul>
+                  <li>Russian (native)</li>
+                  <li>Ukrainian (native)</li>
+                  <li>English (A2)</li>
+               </ul>
+            </article>
+         </aside>
+         <div class="cv__section">
+            <article class="cv__article">
+               <h2 class="cv__title" id="profile">Profile</h2>
+               <p class="cv__text">
+                  I develop responsive mobile-first websites (also with attention to semantic
+                  layout) for more than 2 years. I have experience of commercial development as a
+                  team member. I have excellent experience in HTML and CSS. I’m profound in
+                  reading and fixing peers code. My current work includes integrating JQuery
+                  plugins and also adapting vanilla JavaScript code on different projects. My
+                  hobbies are collecting vinyl, playing and popularising flag-footbal in Saint
+                  Petersburg.
+               </p>
+            </article>
+            <article class="cv__article">
+               <h2 class="cv__title" id="work">Work</h2>
+               <h3 class="cv__title cv__title--h3">Freelancer (2018 - Present)</h3>
+               <p class="cv__text">
+                  Create and rework clients websites in order to improve loading speed and
+                  general usability. Create adaptive components for websites and applications.
+                  Tuning marketing campaigns for clients - getting more marketing leads by email,
+                  CRM and Telegram Accounts for clients. Setting up hosting, domain and website
+                  installations for clients.
+               </p>
+               <h3 class="cv__title cv__title--h3">
+                  Online store 'microprice.ru' (2009 - 2018) Saint-Petersburg
+               </h3>
+               <p class="cv__text">
+                  Team manager - team of 4-5 people. Managing outsource development of company’s
+                  web-store. Client management, operational accounting. Results - Increase in
+                  store's annual turnover by 5%.
+               </p>
+               <h3 class="cv__title cv__title--h3">
+                  Store 'Pozitronika' (2003 - 2009) Velikiy Novgorod
+               </h3>
+               <p class="cv__text">
+                  Team management - team of 11-15 people. Upgrading store’s web-store engine.
+                  Marketing campaigns to increase offline store traffic. Results - staffing
+                  opportunities for the store, Increase in store's annual turnover by 15%.
+               </p>
+               <p class="cv__text"></p>
+            </article>
+            <article class="cv__article">
+               <h2 class="cv__title" id="education">Education</h2>
+               <h3 class="cv__title cv__title--h3">Novgorod State University</h3>
+               <ul class="cv__list">
+                  <li class="cv__item">
+                     Institute of Agriculture and Natural Resources - Animal Science (1998 -
+                     2003)
+                  </li>
+               </ul>
+               <h3 class="cv__title cv__title--h3">Additional Education</h3>
+               <h4 class="cv__title cv__title--h4">
+                  HTML Academy
+                  <span>
+                     <a href="https://htmlacademy.ru/profile/iloi" class="cv__link" target="_blank">profile</a>
+                  </span>
+               </h4>
+               <ul class="cv__list">
+                  <li class="cv__item">
+                     HTML и CSS, уровень 1 (2018)
+                     <a href="https://assets.htmlacademy.ru/certificates/intensive/67/445925@2x.jpg" class="cv__link"
+                        target="_blank">
+                        certificate
+                     </a>
+                  </li>
+                  <li class="cv__item">
+                     HTML и CSS, уровень 2 (2018)
+                     <a href="https://assets.htmlacademy.ru/certificates/intensive/91/445925@2x.jpg" class="cv__link"
+                        target="_blank">
+                        certificate
+                     </a>
+                  </li>
+               </ul>
+               <h4 class="cv__title cv__title--h4">ITgid</h4>
+               <ul class="cv__list">
+                  <li class="cv__item">
+                     JavaScript v.2.0 (2020)
+                     <a href="https://itgid.info/img/certificate/01_b55kxg3a5d.png" class="cv__link" target="_blank">
+                        certificate
+                     </a>
+                  </li>
+                  <li class="cv__item">
+                     ООП в JavaScript (2020)
+                     <a href="https://itgid.info/img/certificate/03_rqj9gv91td.png" class="cv__link" target="_blank">
+                        certificate
+                     </a>
+                  </li>
+               </ul>
+            </article>
+            <article class="cv__article">
+               <h2 class="cv__title" id="my-code">Sample code</h2>
+               <ul>
+                  <li>
+                     <a href="https://maximiloi.github.io/js/weather-app/" class="cv__link" target="_blank">
+                        Weather-app
+                     </a>
+                     <a href="https://github.com/maximiloi/maximiloi.github.io/blob/master/js/weather-app/script.js"
+                        class="cv__link" target="_blank">
+                        (code on github)
+                     </a>
+                  </li>
+                  <li>
+                     <details>
+                        <summary>See code here</summary>
+                        <pre><code class="js">
+const APIURL8 = 'https://api.openweathermap.org/data/2.5/onecall';
+const APIKEY = '&appid=003857592feb5ff0def8aa4fade433b5';
+const APISETTINGS = '&lang=ru&units=metric';
+
+const weatherOnField = document.querySelector('.weather__on--field');
+const weatherOnBeach = document.querySelector('.weather__on--beach');
+
+getWeatherOnField(60.001, 30.260, weatherOnField);
+getWeatherOnField(60.109453, 29.948674, weatherOnBeach);
+
+async function getWeatherOnField(lat, lon, place) {
+const URL_FIELD = APIURL8 + '?lat=' + lat + '&lon=' + lon + APISETTINGS + APIKEY;
+
+const response = await fetch(URL_FIELD);
+const data = await response.json();
+const dayDailyArray = data.daily;
+
+const optionsDayMount = { // выводим день недели, число и месяц
+day: 'numeric',
+month: 'numeric',
+weekday: 'short',
+};
+
+const optionsTime = { // выводим время
+hour: 'numeric',
+minute: 'numeric',
+second: 'numeric'
+};
+
+const weekday = { // выводим день недели
+weekday: 'short',
+};
+
+const titleEL = document.createElement('h2');
+titleEL.innerHTML = 'Прогноз на ' + (place.className === 'weather__on--field' ? 'поле' : 'пляже');
+
+const coordEL = document.createElement('span');
+coordEL.classList.add('ymaps-geolink');
+coordEL.innerHTML = `${lat}, ${lon}`;
+
+const weatherEl = document.createElement('div');
+weatherEl.classList.add('weather-on-wrap');
+
+dayDailyArray.forEach(day =&gt; {
+if ((new Date(day.dt * 1000)).toLocaleString('ru', weekday) === 'вс') {
+
+weatherEl.innerHTML += `</code><code class="html">
+&lt;ul class="weather-on-field__list"&gt;
+   &lt;li class="weather-on-field__item"&gt;
+      &lt;div class="weather-on-field__inner"&gt;
+         &lt;p class="weather-on-field__text"&gt;${(new Date(day.dt * 1000)).toLocaleString('ru', optionsDayMount)}&lt;/p&gt;
+         &lt;p class="weather-on-field__text  weather-on-field__text--temp"&gt;${(day.temp.max).toFixed(0)} /
+            ${(day.temp.min).toFixed(0)} °C&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="weather-on-field__inner"&gt;
+         &lt;img src=" https://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png" alt="${day.weather[0].description}"
+            width="90" height="90"&gt;
+         &lt;p class="weather-on-field__text"&gt;${day.weather[0].description}&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="weather-on-field__inner"&gt;
+         &lt;p class="weather-on-field__text"&gt;Расвет: ${(new Date(day.sunrise * 1000)).toLocaleString('ru', optionsTime)}
+         &lt;/p&gt;
+         &lt;p class="weather-on-field__text"&gt;Закат: ${(new Date(day.sunset * 1000)).toLocaleString('ru', optionsTime)}&lt;/p&gt;
+      &lt;/div&gt;
+   &lt;/li&gt;
+   &lt;li class="weather-on-field__item"&gt;
+      &lt;p class="weather-on-field__text"&gt;Направление ветра: &lt;i class="fas fa-location-arrow"
+            style="transform:rotate(calc(${day.wind_deg}deg - 45deg)"&gt;&lt;/i&gt;&lt;/p&gt;
+      &lt;p class="weather-on-field__text"&gt;Скорость ветра: ${day.wind_speed}м/c&lt;/p&gt;
+      &lt;p class="weather-on-field__text"&gt;Порыв ветра: ${day.wind_gust}м/c&lt;/p&gt;
+      &lt;p class="weather-on-field__text"&gt;Максимальное значение УФ-индекса за день: ${day.uvi}&lt;/p&gt;
+   &lt;/li&gt;
+   &lt;li class="weather-on-field__item"&gt;
+      &lt;p class="weather-on-field__text"&gt;Вероятность выпадения осадков: ${day.pop}&lt;/p&gt;
+      &lt;p class="weather-on-field__text"&gt;Влажность: ${day.humidity} %&lt;/p&gt;
+      &lt;p class="weather-on-field__text"&gt;Облачность: ${day.clouds} %&lt;/p&gt;
+   &lt;/li&gt;
+   &lt;li class="weather-on-field__item"&gt;
+      &lt;table class="table"&gt;
+         &lt;thead&gt;
+            &lt;tr&gt;
+               &lt;th&gt;&lt;/th&gt;
+               &lt;th&gt;Утро&lt;/th&gt;
+               &lt;th&gt;День&lt;/th&gt;
+               &lt;th&gt;Вечер&lt;/th&gt;
+               &lt;th&gt;Ночь&lt;/th&gt;
+            &lt;/tr&gt;
+         &lt;/thead&gt;
+         &lt;tbody&gt;
+            &lt;tr&gt;
+               &lt;td&gt;Температура&lt;/td&gt;
+               &lt;td&gt;${(day.temp.morn).toFixed(1)} °C&lt;/td&gt;
+               &lt;td&gt;${(day.temp.day).toFixed(1)} °C&lt;/td&gt;
+               &lt;td&gt;${(day.temp.eve).toFixed(1)} °C&lt;/td&gt;
+               &lt;td&gt;${(day.temp.night).toFixed(0)} °C&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+               &lt;td&gt;Ощущается как&lt;/td&gt;
+               &lt;td&gt;${(day.feels_like.morn).toFixed(1)} °C&lt;/td&gt;
+               &lt;td&gt;${(day.feels_like.day).toFixed(1)} °C&lt;/td&gt;
+               &lt;td&gt;${(day.feels_like.eve).toFixed(1)} °C&lt;/td&gt;
+               &lt;td&gt;${(day.feels_like.night).toFixed(0)} °C&lt;/td&gt;
+            &lt;/tr&gt;
+         &lt;/tbody&gt;
+      &lt;/table&gt;
+   &lt;/li&gt;
+&lt;/ul&gt;</code><code class="js">
+`;
+}
+});
+
+place.innerHTML = '';
+place.appendChild(weatherEl);
+place.insertBefore(titleEL, weatherEl);
+place.insertBefore(coordEL, weatherEl);
+}
+                     </code></pre>
+                     </details>
+                  </li>
+                  <li>
+                     <a href="https://maximiloi.github.io/quiz-app/" class="cv__link" target="_blank">Quiz-app
+                     </a>
+                     <a href="https://github.com/maximiloi/quiz-app/blob/main/script.js" class="cv__link"
+                        target="_blank">
+                        (code on github)
+                     </a>
+                  </li>
+                  <li>
+                     <details>
+                        <summary>See code here</summary>
+                        <pre><code class="js">
+const quizData = [ // вопросы
+   {
+      question: 'Где я родился?',
+      a: 'Иркутск',
+      b: 'Ангарск',
+      c: 'на берегу Ангары',
+      d: 'Харьков',
+      correct: 'c',
+   }, {
+      question: 'Есть у меня вышее образование?',
+      a: 'Нет',
+      b: 'Да',
+      c: 'Ты же учился в ПТУ',
+      d: 'Армия школа жизни',
+      correct: 'b',
+   }, {
+      question: 'В какой вид спорта я играю?',
+      a: 'Бег',
+      b: 'Регби',
+      c: 'Флаг-футбол',
+      d: 'Флорбол',
+      correct: 'c',
+   }, {
+      question: 'Где я учился верстке?',
+      a: 'А ты учился?',
+      b: 'Geekbrains',
+      c: 'У Александра Лущенко в itgid.info',
+      d: 'HTMLAcademy',
+      correct: 'd',
+   }, {
+      question: 'Что я сейчас ищю?',
+      a: 'Смысл жизни',
+      b: 'Себя',
+      c: 'Ничего',
+      d: 'Работу',
+      correct: 'd',
+   },
+];
+
+const quiz = document.querySelector('#quiz'); // находим элементы с которыми будем работать
+const block = document.querySelector('.block');
+const question = document.querySelector('.question');
+const answerELements = document.querySelectorAll('input[type=radio]');
+const answer_a = document.querySelector('.answer_a');
+const answer_b = document.querySelector('.answer_b');
+const answer_c = document.querySelector('.answer_c');
+const answer_d = document.querySelector('.answer_d');
+const button = document.querySelector('.button');
+// const answers = document.querySelectorAll('label');
+
+let currentQuiz = 0; // присваиваем начальное значение первому вопросу
+let score = 0; // нулевое значение
+
+function loadQuiz() { // функция установки вопроса и ответов
+   deselectAnswers(); // вызов функции убирания выбора в радиокнопке
+
+   const currentQuizData = quizData[currentQuiz]; // назначаем какой вопрос из массива вопросов
+
+   question.innerText = currentQuizData.question; // вставляем вопросы и ответы
+   answer_a.innerText = currentQuizData.a;
+   answer_b.innerText = currentQuizData.b;
+   answer_c.innerText = currentQuizData.c;
+   answer_d.innerText = currentQuizData.d;
+}
+
+function getSelected() { // функция выбора ответа
+   let answer = undefined; // обнуляем ответ
+
+   answerELements.forEach((answerelement) =&gt; { // перебираем список на поиск выбранного ответа
+      if (answerelement.checked) {
+         answer = answerelement.id; // присваиваем ответу ID элемент
+      }
+   });
+
+   return answer; // выдаем ответ
+}
+
+function deselectAnswers() { // функция снятия выбора
+   answerELements.forEach((answerelement) =&gt; { // перебираем список и устанавливаем выбору false
+      answerelement.checked = false;
+   });
+}
+
+button.addEventListener("click", function () { // при нажатии кнопки
+   const answer = getSelected(); // ищем нажатый ответ
+
+   if (answer) { // если ответ есть
+      if (answer === quizData[currentQuiz].correct) { // проверяем правильность ответа
+         score++; // увеличеваем количество правильных ответов
+   }
+   currentQuiz++; // увеличиваем значения вопроса
+
+   if (currentQuiz &lt; quizData.length) { // если ещё есть вопросы 
+      loadQuiz(); // загружаем следующий вопрос 
+   } else { // если вопросы закончились выводить результат 
+      quiz.innerHTML=`
+         &lt;h2 style="text-align: center;padding: 1rem;margin: 0;"&gt;
+            Вы правильно ответили на ${score} из ${quizData.length} вопросов.
+         &lt;/h2&gt;
+         &lt;button onclick="location.reload()"&gt;Пройти заново&lt;/button&gt;
+      `; // перезапускаем страницу, что бы начать заново
+      }
+   }
+});
+
+// запуск опроса
+loadQuiz();</code></pre>
+                     </details>
+                  </li>
+               </ul>
+            </article>
+         </div>
+      </main>
+      <footer class="cv__footer">
+         <p class="cv__text cv__text--footer">&#169; 2021</p>
+         <a href="https://github.com/maximiloi" target="_blank" rel="noopener noreferrer"><svg
+               enable-background="new 0 0 24 24" height="75" viewbox="0 0 24 24" width="75"
+               xmlns="http://www.w3.org/2000/svg">
+               <path
+                  d="m12.29 21.499c3.73 0 8.94.09 10.835-3.701.715-1.449.875-3.122.875-4.7h-.001c0-2.073-.575-4.047-1.95-5.651.786-2.363.26-3.756-.345-4.948-2.24 0-3.69.42-5.39 1.742-2.746-.653-5.856-.571-8.455.04-1.725-1.336-3.175-1.781-5.44-1.781-.621 1.237-1.136 2.599-.344 4.977-2.676 3.083-2.466 7.566-1.065 10.322 1.97 3.835 7.49 3.7 11.28 3.7zm-5.289-9.99c.95 0 1.865.168 2.8.297 3.418.52 5.215-.297 7.31-.297 2.339 0 3.675 1.915 3.675 4.087 0 4.349-4.015 5.012-7.53 5.012-2.419-.163-9.93.976-9.93-5.012 0-2.172 1.334-4.087 3.675-4.087z" />
+               <path
+                  d="m16.655 18.323c1.29 0 1.835-1.692 1.835-2.727s-.545-2.727-1.835-2.727-1.835 1.692-1.835 2.727.545 2.727 1.835 2.727z" />
+               <path
+                  d="m7.47 18.323c1.29 0 1.835-1.692 1.835-2.727s-.546-2.726-1.835-2.726-1.835 1.692-1.835 2.727.545 2.726 1.835 2.726z" />
+            </svg>
+         </a>
+         <a href="https://rs.school/js/" target="_blank" rel="noopener noreferrer">
+            <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+               viewbox="0 0 552.8 205.3" width="200">
+               <style>
+                  .st0 {
+                     fill: #fff
+                  }
+
+                  .st1 {
+                     clip-path: url(#SVGID_2_)
+                  }
+
+                  .st2 {
+                     clip-path: url(#SVGID_4_)
+                  }
+
+                  .st3 {
+                     clip-path: url(#SVGID_6_)
+                  }
+
+                  .st4 {
+                     clip-path: url(#SVGID_8_)
+                  }
+
+                  .st5 {
+                     fill: #fff;
+                     stroke: #000;
+                     stroke-width: 4;
+                     stroke-miterlimit: 10
+                  }
+
+                  .st6 {
+                     clip-path: url(#SVGID_8_)
+                  }
+
+                  .st6,
+                  .st7 {
+                     fill: none;
+                     stroke: #000;
+                     stroke-width: 4;
+                     stroke-miterlimit: 10
+                  }
+
+                  .st8,
+                  .st9 {
+                     clip-path: url(#SVGID_10_)
+                  }
+
+                  .st9 {
+                     fill: none;
+                     stroke: #000;
+                     stroke-width: 4;
+                     stroke-miterlimit: 10
+                  }
+               </style>
+               <title>rs_school_js</title>
+               <path
+                  d="M285.4 68l26.3-1.7c.6 4.3 1.7 7.5 3.5 9.8 2.9 3.6 6.9 5.4 12.2 5.4 3.9 0 7-.9 9.1-2.8 2-1.5 3.2-3.9 3.2-6.4 0-2.4-1.1-4.7-3-6.2-2-1.8-6.7-3.6-14.1-5.2-12.1-2.7-20.8-6.3-25.9-10.9-5.1-4.3-8-10.6-7.8-17.3 0-4.6 1.4-9.2 4-13 3-4.3 7.1-7.7 12-9.6 5.3-2.3 12.7-3.5 22-3.5 11.4 0 20.1 2.1 26.1 6.4 6 4.2 9.6 11 10.7 20.3l-26 1.5c-.7-4-2.1-6.9-4.4-8.8s-5.3-2.8-9.2-2.8c-3.2 0-5.6.7-7.2 2-1.5 1.2-2.5 3-2.4 5 0 1.5.8 2.9 2 3.8 1.3 1.2 4.4 2.3 9.3 3.3 12.1 2.6 20.7 5.2 26 7.9 5.3 2.7 9.1 6 11.4 9.9 2.4 4 3.6 8.6 3.5 13.3 0 5.6-1.6 11.2-4.8 15.9-3.3 4.9-7.9 8.7-13.3 11-5.7 2.5-12.9 3.8-21.5 3.8-15.2 0-25.7-2.9-31.6-8.8S286.1 77 285.4 68zM6.3 97.6V8.2h46.1c8.5 0 15.1.7 19.6 2.2 4.4 1.4 8.3 4.3 10.9 8.2 2.9 4.3 4.3 9.3 4.2 14.5.3 8.8-4.2 17.2-11.9 21.6-3 1.7-6.3 2.9-9.7 3.5 2.5.7 5 1.9 7.2 3.3 1.7 1.4 3.1 3 4.4 4.7 1.5 1.7 2.8 3.6 3.9 5.6l13.4 25.9H63L48.2 70.2c-1.9-3.5-3.5-5.8-5-6.9-2-1.4-4.4-2.1-6.8-2.1H34v36.3H6.3zM34 44.4h11.7c2.5-.2 4.9-.6 7.3-1.2 1.8-.3 3.4-1.3 4.5-2.8 2.7-3.6 2.3-8.7-1-11.8-1.8-1.5-5.3-2.3-10.3-2.3H34v18.1zM0 174.2l26.3-1.7c.6 4.3 1.7 7.5 3.5 9.8 2.8 3.6 6.9 5.5 12.2 5.5 3.9 0 7-.9 9.1-2.8 2-1.6 3.2-3.9 3.2-6.4 0-2.4-1.1-4.7-3-6.2-2-1.8-6.7-3.6-14.2-5.2-12.1-2.7-20.8-6.3-25.9-10.9-5.1-4.3-8-10.6-7.8-17.3 0-4.6 1.4-9.2 4-13 3-4.3 7.1-7.7 12-9.6 5.3-2.3 12.7-3.5 22-3.5 11.4 0 20.1 2.1 26.1 6.4s9.5 11 10.6 20.3l-26 1.5c-.7-4-2.1-6.9-4.4-8.8-2.2-1.9-5.3-2.8-9.2-2.7-3.2 0-5.6.7-7.2 2.1-1.6 1.2-2.5 3-2.4 5 0 1.5.8 2.9 2 3.8 1.3 1.2 4.4 2.3 9.3 3.3 12.1 2.6 20.7 5.2 26 7.9 5.3 2.7 9.1 6 11.4 9.9 2.4 4 3.6 8.6 3.6 13.2 0 5.6-1.7 11.1-4.8 15.8-3.3 4.9-7.9 8.7-13.3 11-5.7 2.5-12.9 3.8-21.5 3.8-15.2 0-25.7-2.9-31.6-8.8-5.9-6-9.2-13.4-10-22.4z" />
+               <path
+                  d="M133 167.2l24.2 7.3c-1.3 6.1-4 11.9-7.7 17-3.4 4.5-7.9 8-13 10.3-5.2 2.3-11.8 3.5-19.8 3.5-9.7 0-17.7-1.4-23.8-4.2-6.2-2.8-11.5-7.8-16-14.9-4.5-7.1-6.7-16.2-6.7-27.3 0-14.8 3.9-26.2 11.8-34.1s19-11.9 33.4-11.9c11.3 0 20.1 2.3 26.6 6.8 6.4 4.6 11.2 11.6 14.4 21l-24.4 5.4c-.6-2.1-1.5-4.2-2.7-6-1.5-2.1-3.4-3.7-5.7-4.9-2.3-1.2-4.9-1.7-7.5-1.7-6.3 0-11.1 2.5-14.4 7.6-2.5 3.7-3.8 9.6-3.8 17.6 0 9.9 1.5 16.7 4.5 20.4 3 3.7 7.2 5.5 12.7 5.5 5.3 0 9.3-1.5 12-4.4 2.7-3.1 4.7-7.4 5.9-13zm56.5-52.8h27.6v31.3h30.2v-31.3h27.8v89.4h-27.8v-36.2h-30.2v36.2h-27.6v-89.4z" />
+               <path
+                  d="M271.3 159.1c0-14.6 4.1-26 12.2-34.1 8.1-8.1 19.5-12.2 34-12.2 14.9 0 26.3 4 34.4 12S364 144 364 158.4c0 10.5-1.8 19-5.3 25.7-3.4 6.6-8.7 12-15.2 15.6-6.7 3.7-15 5.6-24.9 5.6-10.1 0-18.4-1.6-25-4.8-6.8-3.4-12.4-8.7-16.1-15.2-4.1-7-6.2-15.7-6.2-26.2zm27.6.1c0 9 1.7 15.5 5 19.5 3.3 3.9 7.9 5.9 13.7 5.9 5.9 0 10.5-1.9 13.8-5.8s4.9-10.8 4.9-20.8c0-8.4-1.7-14.6-5.1-18.4-3.4-3.9-8-5.8-13.8-5.8-5.1-.2-10 2-13.4 5.9-3.4 3.9-5.1 10.4-5.1 19.5zm93.4-.1c0-14.6 4.1-26 12.2-34.1 8.1-8.1 19.5-12.2 34-12.2 14.9 0 26.4 4 34.4 12S485 144 485 158.4c0 10.5-1.8 19-5.3 25.7-3.4 6.6-8.7 12-15.2 15.6-6.7 3.7-15 5.6-24.9 5.6-10.1 0-18.4-1.6-25-4.8-6.8-3.4-12.4-8.7-16.1-15.2-4.1-7-6.2-15.7-6.2-26.2zm27.6.1c0 9 1.7 15.5 5 19.5 3.3 3.9 7.9 5.9 13.7 5.9 5.9 0 10.5-1.9 13.8-5.8 3.3-3.9 4.9-10.8 4.9-20.8 0-8.4-1.7-14.6-5.1-18.4-3.4-3.9-8-5.8-13.8-5.8-5.1-.2-10.1 2-13.4 5.9-3.4 3.9-5.1 10.4-5.1 19.5z" />
+               <path d="M482.1 114.4h27.6v67.4h43.1v22H482v-89.4z" />
+               <ellipse transform="rotate(-37.001 420.46 67.88)" class="st0" cx="420.5" cy="67.9" rx="63" ry="51.8" />
+               <defs>
+                  <ellipse id="SVGID_1_" transform="rotate(-37.001 420.46 67.88)" cx="420.5" cy="67.9" rx="63"
+                     ry="51.8" />
+               </defs>
+               <clippath id="SVGID_2_">
+                  <use xlink:href="#SVGID_1_" overflow="visible" />
+               </clippath>
+               <g class="st1">
+                  <path transform="rotate(-37.001 420.82 68.353)" class="st0" d="M330.9-14.2h179.8v165.1H330.9z" />
+                  <g id="Layer_2_1_">
+                     <defs>
+                        <path id="SVGID_3_" transform="rotate(-37.001 420.82 68.353)"
+                           d="M330.9-14.2h179.8v165.1H330.9z" />
+                     </defs>
+                     <clippath id="SVGID_4_">
+                        <use xlink:href="#SVGID_3_" overflow="visible" />
+                     </clippath>
+                     <g id="Layer_1-2" class="st2">
+                        <ellipse transform="rotate(-37.001 420.46 67.88)" class="st0" cx="420.5" cy="67.9" rx="63"
+                           ry="51.8" />
+                        <defs>
+                           <ellipse id="SVGID_5_" transform="rotate(-37.001 420.46 67.88)" cx="420.5" cy="67.9" rx="63"
+                              ry="51.8" />
+                        </defs>
+                        <clippath id="SVGID_6_">
+                           <use xlink:href="#SVGID_5_" overflow="visible" />
+                        </clippath>
+                        <g class="st3">
+                           <path transform="rotate(-37 420.799 68.802)" class="st0" d="M357.8 17h125.9v103.7H357.8z" />
+                           <defs>
+                              <path id="SVGID_7_" transform="rotate(-37 420.799 68.802)"
+                                 d="M357.8 17h125.9v103.7H357.8z" />
+                           </defs>
+                           <clippath id="SVGID_8_">
+                              <use xlink:href="#SVGID_7_" overflow="visible" />
+                           </clippath>
+                           <g class="st4">
+                              <ellipse transform="rotate(-37.001 420.46 67.88)" class="st5" cx="420.5" cy="67.9" rx="63"
+                                 ry="51.8" />
+                           </g>
+                           <path transform="rotate(-37 420.799 68.802)" class="st6" d="M357.8 17h125.9v103.7H357.8z" />
+                           <ellipse transform="rotate(-37.001 420.46 67.88)" class="st7" cx="420.5" cy="67.9" rx="63"
+                              ry="51.8" />
+                           <path transform="rotate(-37 420.799 68.802)" class="st0" d="M357.8 17h125.9v103.7H357.8z" />
+                           <defs>
+                              <path id="SVGID_9_" transform="rotate(-37 420.799 68.802)"
+                                 d="M357.8 17h125.9v103.7H357.8z" />
+                           </defs>
+                           <clippath id="SVGID_10_">
+                              <use xlink:href="#SVGID_9_" overflow="visible" />
+                           </clippath>
+                           <g class="st8">
+                              <ellipse transform="rotate(-37.001 420.46 67.88)" class="st5" cx="420.5" cy="67.9" rx="63"
+                                 ry="51.8" />
+                           </g>
+                           <path transform="rotate(-37 420.799 68.802)" class="st9" d="M357.8 17h125.9v103.7H357.8z" />
+                           <path transform="rotate(-37.001 420.82 68.353)" class="st7"
+                              d="M330.9-14.2h179.8v165.1H330.9z" />
+                        </g>
+                        <ellipse transform="rotate(-37.001 420.46 67.88)" class="st7" cx="420.5" cy="67.9" rx="63"
+                           ry="51.8" />
+                        <path
+                           d="M392.4 61.3l10-7 12.3 17.5c2.1 2.8 3.7 5.8 4.9 9.1.7 2.5.5 5.2-.5 7.6-1.3 3-3.4 5.5-6.2 7.3-3.3 2.3-6.1 3.6-8.5 4-2.3.4-4.7 0-6.9-1-2.4-1.2-4.5-2.9-6.1-5.1l8.6-8c.7 1.1 1.6 2.1 2.6 2.9.7.5 1.5.8 2.4.8.7 0 1.4-.3 1.9-.7 1-.6 1.7-1.8 1.6-3-.3-1.7-1-3.4-2.1-4.7l-14-19.7zm30 11.1l9.1-7.2c1 1.2 2.3 2.1 3.7 2.6 2 .6 4.1.2 5.8-1.1 1.2-.8 2.2-1.9 2.6-3.3.6-1.8-.4-3.8-2.2-4.4-.3-.1-.6-.2-.9-.2-1.2-.1-3.3.4-6.4 1.7-5.1 2.1-9.1 2.9-12.1 2.6-2.9-.3-5.6-1.8-7.2-4.3-1.2-1.7-1.8-3.7-1.9-5.7 0-2.3.6-4.6 1.9-6.5 1.9-2.7 4.2-5 7-6.8 4.2-2.9 7.9-4.3 11.1-4.3 3.2 0 6.2 1.5 9 4.6l-9 7.1c-1.8-2.3-5.2-2.8-7.5-1l-.3.3c-1 .6-1.7 1.5-2.1 2.6-.3.8-.1 1.7.4 2.4.4.5 1 .9 1.7.9.8.1 2.2-.3 4.2-1.2 5-2.1 8.8-3.3 11.4-3.7 2.2-.4 4.5-.2 6.6.7 1.9.8 3.5 2.2 4.6 3.9 1.4 2 2.2 4.4 2.3 6.9.1 2.6-.6 5.1-2 7.3-1.8 2.7-4.1 5-6.8 6.8-5.5 3.8-10 5.4-13.6 4.8-3.9-.6-7.1-2.6-9.4-5.5z" />
+                     </g>
+                  </g>
+               </g>
+            </svg>
+            <!-- <img src="img/rs_school_js.svg" alt="logo rs school" class="cv__footer-logo" width="200" /> -->
+         </a>
+      </footer>
+      <button onclick="topFunction()" class="scroll-to-top" title="Go to top">
+         <svg enable-background="new 0 0 512 512" height="50" width="50" viewbox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+               d="m256 0c-141.167 0-256 114.833-256 256s114.833 256 256 256 256-114.853 256-256-114.833-256-256-256zm0 472.341c-119.275 0-216.341-97.046-216.341-216.341s97.066-216.341 216.341-216.341c119.295 0 216.341 97.046 216.341 216.341s-97.066 216.341-216.341 216.341z"
+               xmlns="http://www.w3.org/2000/svg" />
+            <path
+               d="m369.227 283.365-99.148-99.148c-7.734-7.694-20.226-7.694-27.96 0l-99.148 99.148c-6.365 7.416-6.365 18.382 0 25.798 7.119 8.309 19.651 9.28 27.96 2.161l85.069-85.068 85.267 85.069c7.734 7.694 20.226 7.694 27.96 0 7.694-7.734 7.694-20.227 0-27.96z"
+               xmlns="http://www.w3.org/2000/svg" />
+         </svg>
+      </button>
+   </div>
+   <script src="script.js"></script>
+</body>
+
 </html>
